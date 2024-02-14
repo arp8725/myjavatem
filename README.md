@@ -232,3 +232,56 @@ UPDATE EMP SET Salary = 60000 where Empid=10;
 UPDATE EMP SET Salary = 100 where Empid=11;
 
 
+
+app.component.html
+
+<div class="container">
+  <h1 class="text-light bg-dark p-3">Learning Angular Pipe</h1>
+  <p>{{companyName | uppercase}}</p>
+  <p>{{num | percent}}</p>
+  <p>{{num | currency}}</p>
+  <p>{{num | currency:"INR"}}</p>
+  <p>{{student | json}}</p>
+  <p>{{studentName }}</p>
+  <p>{{studentName | slice:2-6}}</p>
+  
+  <hr>
+
+  <!-- custom pipe -->
+  <input type="text" [(ngModel)]="name" >
+  <p *ngFor="let n of studentName | search: name">
+    {{n}}
+  </p>
+  <hr>
+</div>
+
+
+
+search.pipe.ts
+import { Pipe, PipeTransform } from '@angular/core';
+import { Params } from '@angular/router';
+
+@Pipe({
+  name: 'search'
+})
+export class SearchPipe implements PipeTransform {
+        // the whole array  , search:name
+  transform(arr: string[], param:string): string[] 
+  {
+     return arr.filter((val) =>val.indexOf(param) !==-1)
+  
+      // return arr.filter((val) =>
+      // {
+      //   if(val.indexOf(param) !==-1)
+      //   {
+      //     return true;
+      //   }
+      //   else
+      //   {
+      //     return false;
+      //   }
+      // });
+  }
+
+
+}
