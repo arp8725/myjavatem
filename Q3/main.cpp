@@ -1,29 +1,55 @@
-#include"bankaccoutn.h"
+
+#include"student.cpp"
+#include<cstring>
+#include <iostream>
  
-int main(){
-    Bank b1(101,"Aditya",5000);
+double calMaxavg(Student st[], int size) {
+    double avg[3];
+    for(int i=0;i<size;i++) {
+        avg[i] = st[i].calavgmarks();
+    }
+ 
+    double maxi = avg[0];
+    for(int i=1;i<3;i++) {
+        if(avg[i] > maxi) {
+            maxi = avg[i];
+        }
+    }
+    return maxi;
+}
+ 
+int main() {
+
+    Student s1;
+    s1.display();
+
+    Student s2(1,"Adi",100);
+    s2.display();
+   
+    double mk1[3] = {22,33,44};
+    double mk2[3] = {33,53,73};
+    double mk3[3] = {11,21,31};
+ 
+ 
+    Student sobj[3] = {{1,"Aditya",mk1},{2,"Madhav",mk2},{3,"Shiv",mk3}};
+ 
+    double maxavg = calMaxavg(sobj, 3);
+    std::cout<<"the maximum average is : "<<maxavg;
+
+    
+    Student obj{1,"Adi",mk1};
+    std::cout<<"\n";
     try
     {
-        b1.withdraw();
+        std::cout<<*obj[99];
     }
-    catch(const std::runtime_error& e)
+    catch(const std::exception& e)
     {
-        std::cout << e.what() << '\n';
+        std::cerr << e.what() << '\n';
     }
-   
- 
-    // int n;
-    // std::cin>>n;
- 
- 
- 
-//    Bank b1[n];
-//    for(int i=0;i<n;i++){
-//     std::cin>>b1[i];
-//    }
-//     // std::cin>>b1;
-//     std::cout<<"\t";
-//     std::cout<<b1;
- 
-   
+    std::cout<<*obj[2];
+    *obj[2]='b';
+    // std::cout<<obj(2);
+    std::cout<<*obj[2];
+
 }
