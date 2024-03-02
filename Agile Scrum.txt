@@ -1,0 +1,572 @@
+Project management is a discipline 
+	-Planning
+	-Organizing
+	-Motivating
+	-Control of resources.
+Project Management acieves a specific goal:
+	There are 5 development components of a project:
+		-initiation
+		-planning and design
+		-execution & construction
+		-montioring and controlling systems
+		-completing
+
+Traditional PM
+Waterfall Model
+--> Requirement gatering - -> Design --> Development --> integration -->Testing.
+
+Why no waterfall model ?
+-Makes changes difficulty.
+-doesnot focus on the end-suer/client.
+-The testing phase is delayed unitl most of the project is completed.
+-Measuring the progrocess within the stage is difficult.
+
+Agile is a set of principle used in project management and software development
+
+4 main points: 
+-It enables teams to deilver value to thier customer with ease.
+-Agile teams deliver work in samll, but usable increments,
+-Evaluation of the requirements , plans, and results take place continuously. This allows teams to respnd to changes quickely.
+
+Agile Manifesto (Feb 2001)
+we value these more than the item on the below(5-8)
+1) Individual and interactions.
+2) working porducts
+3) Customer Collaboration
+4) Responsding to changes
+
+we value these,but not as much as the item on the top(1-4)
+5) Processes and Tools
+6) Comprehensive Documentation
+7) Contract Negotiation
+8) Following a plan.
+
+
+Agile Manifesto Principles
+Principle 1: Customer satisfaction --> You need to satisfy customer thri=ough early and quick delivery of the products.
+Principle 2: Accomadating Changes ---> customers changing needs to be addressed even late in the development.
+Principle 3: Deliver Frequently ---> Ensure software is delivered frequently, focusing on a shoter timescale.
+Principle 4: Work Together ---> Developers and business individuals need to work together through the course of project
+Principle 5: Motivated Team: Project need to be built around motivated individual and they must be trusted to get the job done.
+Principle 6:Face to face Interaction ---> Face to face conversition is the most efficient means of communication
+Principle 7: Working Software ---> Working progress is a primary measure of progress (means not to give a hypothetical software, we must give working s/w).
+Principle 8: Constant pace ---> The agile process promotes sustainable development
+Principle 9: Good Design ---> Agility can be improved by focusing on technical excellence and good design
+Principle 10: Simplicity ---> The amount of work which is not being done should be minimized.
+Principle 11: self-organization ---> self organized teams provide the best architecture , requirements and design
+Principle 12:  Reflect and Adjust ---> Effectiveness can be imporved by the team regularly reflecting on it.
+
+
+Agile methods: 
+--> Lean --> Lean is a set of tools and principles that aims to identify and remove waste to increase th speed of process development.It focuses on maximizing value of client 
+--> kANBAN. --> This mehod is ued to design , manage and improve the flow of system. Organizations can visualise their flow of work and limiting their work in progress.
+--> Extreme programming (XP) --> It is a framework that enables teams to create high quality s/w and imporve their quality of life.
+--> Crystal --> It is an approach to software development that foucses on people and thier interactions , rather than tools and process. It is aimed to streamline process and imporve optimization.
+--> DSDM
+--> FDD
+--> TDD
+--> ASD
+--> AUP
+--> DDD
+
+Scrum Benefits: 
+- Adaptablilty
+- Transparency
+- continous feedback
+- Continous imporvement.
+- Sustainabl Pace
+- Early delivery of High Value
+- Efficient Development process
+- Motivation
+- Faster problem resoultion
+- High trust environment
+
+
+
+Scrum Scalability
+=================
+Effective scrum team are 6-10 members
+
+What is Agile? Agile is aset of methods and practices that focuses on iterative development.
+
+Scrum Principle
+===============
+-> Empirical Process Control
+-> Self-organization
+-> collaboration
+-> vlaue based Prioritization
+-> Time boxing
+-> Iterative Development
+
+
+-> Empirical Process Control
+	Empirical process control in scrum is a way of managing work that is based on observation and experimentation, rather than predefined plans and processes. 
+	It allows scrum teams to be flexible and adaptive in the face of change, by learning from their experiences and making adjustments as needed. 
+	Empirical process control relies on three pillars: transparency, inspection, and adaptation. Transparency means presenting the facts as they are, 
+	without hiding or manipulating information.
+
+A scrum team consist if 3 roles: 
+	-> The scrum master, 
+	-> The product owner and 
+	-> The development team.
+
+
+SCRUM PHASES:
+=============
+
+1) Initiate 
+2) Plan & Estimate
+3) Implement
+4) Review & Retrospect
+5) Release
+
+1) Initiate: 
+
+	During this phase, the team will create the project's vision, essentially outlining a roadmap with the main objectives, goals, and deliverables. 
+	They will also identify all stakeholders, assign team members to each role, and determine epics forming the project backlog. 
+
+	The product backlog is a list that contains features (product epics) that will be implemented during development, ordered by priority. 
+	A Product Owner creates these based on the project’s vision and the client’s needs, and they’re usually formatted.
+
+
+2) Plan & Estimate: 
+
+	Product epics are rarely accomplished with just one task or feature. 
+	To achieve the goals of a product epic, the Scrum team would have to complete several actions. 
+	These are called user stories.
+
+	User stories are formatted in the same way product epics are formatted. However, they are typically quicker to implement.
+
+3) Implement:
+
+	The implementation phase is about the execution of tasks and activities to accomplish product goals and complete project deliverables.
+	Scrum processes that are key to this phase are daily stand-up meetings and burndown chart monitoring.
+	Daily stand-up meetings are regular (but quick) touch bases that the team does to check on task status, align on sprint progress, and check for possible issues. 
+
+4) Review & Retrospect: 
+
+	The review & retrospective phase is an essential part of the agile scrum process and should be done after every sprint ends. 
+	It's an opportunity to evaluate what was successful, what could be improved, and how to move forward by gathering customer feedback and team insights. 
+
+5) Release :
+
+	The Release phase is the final phase of the Scrum methodology steps and is all about getting the final project deliverables ready and turning them over to the relevant stakeholders. 
+	Here, the team needs to ensure that all their hard work is rewarded with a successful completion. 
+
+
+Question 1:
+What is the difference between agile software development and traditional software development? 
+Ans: Traditional development focuses more on plans and process while agile focuses more on thee outcoem and value.
+
+Question 2:
+Which of the following are benefits of using Scrum?
+A. Adaptability
+B. Continuous development
+C. Sustainable pace
+D. Customer centric
+E. High Velocity
+F. Motivation
+G. Clear requirements 
+
+Ans: A C D E F
+
+Question 3:
+How does the Scrum Guidance Body (SGB) contribute to scalability? 
+Ans: The SGB recommends when to hold various meetings that are part of scrum.
+
+Question 4:
+Which of the following is NOT a Scrum principle? 
+Ans: Inspect and adopt.
+
+Question 5:
+What is value-based prioritization? 
+Ans: The priority assigned that represent the bussiness value.
+
+Question 6:
+The business case documents the business justification for the Scrum project. What else does the business case provide?
+A. Basis for project scope
+B. Estimated costs
+C. Options
+D. Risks
+
+Ans: All the above
+
+Question 7:
+What is true of the two aspects of the Review & Retrospect phase? 
+Ans: The Review focuses on demonstration, inspect and adapt, .....The Retrospect focuses on process improvement.
+
+
+Question 8:
+Which of the following is NOT considered as part of the Plan and Estimate phase? 
+Ans : Plan the release.
+
+
+
+
+
+SECTION 4: CHAPTER 3 - INITIATING A PROJECT.
+--------------------------------------------
+1) Scrum Cycle - Initiate
+
+Business Case -----> Vision Statement -----> Prioritized Product Backlog.
+	=>Create Project Vision—In this process, the Project Business Case is reviewed to create a Project Vision Statement that will serve as the inspiration and provide focus for the entire project. 
+	  The Product Owner is identified in this process.
+
+2) Create the project Vision: 
+	=>A business case triggers a Scrum project.
+	Tools inculded : 
+		->Project vision meetings.
+		->JAD sessions
+		->SWOT analysis
+		->Gap analysis.
+	=>A vision describes a set of outcomes.
+
+3)Project Vision Meeting
+	=>To engage with appropriate stakeholder,
+
+4)JAD Sessions:
+	=> A JAD session is a Joint Application Development (or Design) session where stakeholders with different points of view come together 
+	   to understand business requirements and brainstorm the best technical approach for meeting the customer's needs.
+
+5) GAP Analysis: 
+	=> A gap analysis is a valuable tool used to compare your current state with your desired future state. By identifying gaps between the two,
+	    you can develop actionable goals to improve your business performance.
+
+
+
+Identifying the Scrum Master.
+=============================
+
+Identify the Scrum Master.
+-----------------------------
+=>The scrum master is intended to be a servant leader of the scrum team and other stakeholder in the project.
+=>The objective of scrum master is to moderate & facilitate team interaction & coach and mentor the various stakeholder and
+   try to produce valuable outcome for the customers.
+=> S Master teaches and reinforces scrum principles
+
+Identify the Stakeholder
+-------------------------
+Scrum describe roles as Core and Non-core.
+	Core roles are :
+	- Product owner
+	- Scrum Master
+	- Scrum Team
+
+	Non-core roles include
+	- Stakeholder
+	   * customers
+	   * users
+	   * sponsers
+	- Venors
+	- Scrum Guidance Body
+
+Form the Scrum Team
+-------------------
+- Once the Scrum master and the stake holder is identified.Next step is team Formation.
+- Scrum teams are cross functional.
+- Key skills : 
+	* independent thinking
+	* self-motivation
+	* customer-focused
+	* responsible
+	* collaborative
+
+-Typical scrum team is 6-10 people.
+
+Tuckman's model
+-Formin
+-Stroming
+-Norming
+-Performing
+
+
+=> Develop Epics :
+ Developing epics is a way of organizing your product backlog into large, high-level features that 
+ deliver user value and align with your strategic goals. Epics can be broken down into smaller user 
+ stories that can be completed in a single sprint. Epics help you prioritize, plan, and track your 
+ progress across multiple sprints and teams.
+
+EPICS & PERSONAE
+----------------
+
+Epic tell a story. what would the customer and user like to happen ?
+
+Personae describe an example bringing the connection to life.
+
+Create the Prioritized Product Backlog
+--------------------------------------
+=> Prioritized product backlog: a prioritized list of epics, user stories,changes and perhaps risk to be managed during project.
+=> Prdouct woner : develops and maintains the prioritized product backlog.
+=> Scrum master may facilitate user griup workshop or focus groups to help prioritize options.
+* Techniques used to prioritize the product backlog : 
+	1) MoSCow Analysis
+	2) Paired Comparisons
+	3) 100 Point Method
+	4) Kano Analysis
+
+
+1) MoSCow Analysis
+------------------
+M-Must have
+S-Should have
+C-Could have
+W-Wont have
+
+
+2) Paired Comparisons	
+------------------------
+-List all the user stories
+-compare then, two at a time.
+-Keeping going until all the user stories are prioritized.
+
+3) 100 Point Method
+--------------------
+-Each user get 100 points to vote for user stories and then they are prioritized.
+
+4) Kano Analysis
+------------------
+classifies features as 
+-Exciters/Delighters
+-Satisfiers
+-Dissatifiers
+-Indifferent. 
+
+Conduct Release Planning
+=========================
+Deliver high value functionality to the customer sooner rather than.
+-Release Strategies:
+  ->Continous Delpoyment - featured centered
+  -> Phased Deployment - time centered
+
+Output of Release Planning:
+===========================
+Release planning schedule usually evolves as the project progresses.
+
+Length of sprint.
+---> Most Scrum practices maxout at 4 weeks.
+	* some last 6 weeks
+	* Many prefer shorter sprint of 2 or 3 weeks.
+---> Define target customers for a release.
+
+
+
+QUIZ
+=====
+
+Question 1:
+What is the purpose of the Create the Project Vision? 
+Ans : Identify the project deliverables and the value provided.
+
+Question 2:
+What is true about Gap Analysis?
+A. Identify current state
+B. Document target state
+C. Determine Scrum processes required to achieve the target
+D. Determine a possible path to achieve the target 
+
+Ans: A,B,D
+
+Question 3:
+Which one of the following is NOT a characteristic of a good Scrum Master? 
+Ans: Most Knowledgeable person about scrum.
+
+
+Question 4:
+Why is it important to identify stakeholders early in the development effort? 
+Ans: A stakeholder are required to be engaged throughout the project lifecycle.
+
+Question 5:
+Which of the following are some of the key skills for the Scrum Team?
+A. Fast programming
+B. Self-motivated
+C. Good debugging
+D. Responsible
+E. Language lawyer
+F. Works well with others
+G. Independent thinking 
+
+Ans: BDFG
+
+Question 6:
+What is the purpose of the Develop Epic(s) process? 
+Ans: Create user stories that serve as a hiogh-level baseline on scope and requirement.
+
+Question 7:
+How are the items in the Product Backlog organized and prioritized? 
+Ans:The product owner works with stakeholders to develope not only the items included in the product Backlog, but also thier priority.
+
+Question 8:
+What is the purpose of the Conduct Release Planning process? 
+Ans: Release planning starts before any products are developed to help focus the scrum team to provide the maximum business value
+     as quickly as possible.
+
+
+
+CHAPTER-4 : PLANNING & ESTIMATING A PROJECT
+===========================================
+Plan and Estimate
+------------------
+Prioritized Product Backlog ==> sprint backlog ==> Release planning schedule ==> Daily Starup ==> Creat Deliverables ==> Groom product Backlog.
+
+
+
+Point cost estimation
+---------------------
+-uses story points, not monetary units.
+-Estimation technique in relative terms.
+
+Other Estimation Tecniques:
+---------------------------
+-> Bandwidth Delphi
+-> Relative Sizing/Story Points
+-> Affinity Estimation
+-> Estimation Ranges
+
+Index cards: 
+-> user stories are written on small index cards.
+-> only esential details are documented.
+-> Index cards: 
+	* Facilitates collaboration and discussion.
+	* Inscrease visibility and transperency.
+	* reduce risk and assist with problem determination.
+
+Dependencies: Breaking the task into pecies.
+Determining dependencies: Once the task are identified , consider technical & people dependencies.
+-> Mandatory dependecies.
+-> Discretionary dependencies.
+-> External Dependencies.
+-> Internal Dependencies.
+
+==> Sprint backlog takes input from:
+ -committed user stories.
+ -changes
+ -risks
+ - effort estimated task list.
+
+ScrumBoard
+==========
+
+story |  to-do  |  in process | verify  | Done
+
+
+
+Question 1:
+Which of the following is a simple valid user story? 
+Ans: ABC company sales people(Aka Mobile worker) need to be able to view client information on comapny supplied tablets
+     while ont the road so that they have up-to-date information about outstanding (or open) orders(i.e.orders that have not been shipped)
+      before meeting with the client.
+
+Question 2:
+What is true about all of the methods used to estimate user stories? 
+Ans: All the estimation techniques produce relative estimation of complexity and / or effort based on consensus.
+
+Question 3:
+What is an output from Approve, Estimate and Commit User Stories? 
+Ans: A basis for a sprint backlog
+
+Question 4:
+When is the task planning meeting run? 
+Ans: At the  beginning of each sprint
+
+Why is it important to write the user stories on something no bigger than a 3 x 5 card?
+A. Keeps the stories short
+B. Facilitate collaboration
+C. Transparency 
+
+Ans: All the above
+
+Question 6:
+Task estimation meetings are used to estimate what? 
+Ans: Resources needed/required.
+
+Question 7:
+What is the Sprint Backlog? 
+Ans: It is the list of user stories used by the development team.
+
+Question 8:
+Which of the following are sprint tracking metrics?
+A. Derived business value
+B. Cost of developing the stories in the sprint
+C. Time spent developing the stories in the sprint
+D. Number of user stories completed in the sprint
+E. Velocity 
+
+Ans: ADE
+
+
+CHAPTER - 5: Implementing a project.
+==================================== 
+
+->Daily standup meeting
+->Deliverables
+->Design Patterns
+->Impediment Log
+->Refactoring
+->Technical Debt
+->Test Driven Development
+->War Room.
+
+Build Deliverables
+--------------------
+->scrum teams produce working, potentially shippable solutions each sprint
+->Including all necessary cross-functional work
+	-requirements
+	-design
+	-deveopment
+	-testing
+	-Demostration at the sprint review meeting
+->Many organization use test driven development
+	-write a test
+	-fail it
+	-write enough to make it pass.
+	-refactor.
+
+-> 3 daily question
+---------------------
+1) what did i complete yesterday?
+2) what will i complete today?
+3) what impediment or obstaces am i currently facing. 
+
+
+
+Question 1:
+What happens during the Create Deliverables process? 
+Ans: Do the work of the sprint.
+
+Question 2:
+What is Test Driven Development (TDD)? 
+Ans: Develop story-based test before writing the code to implement the story.
+
+Question 3:
+Why is refactoring important? 
+Ans: Imporve code quality and maintainability.
+
+Question 4:
+The ___________  participates in the daily standup and the ________ facilitates it. 
+Ans: Development team and scrum master.
+
+Question 5:
+What happens during the daily standup? 
+Ans: Team shares status, immediate plans and risks.
+
+Question 6:
+Which of the following statements is true?
+A. Teams should be co-located
+B. Distributed development teams are hard to manage and discourages 
+
+Ans: A is true & B is false.
+
+Question 7:
+When does grooming take place? 
+Ans: Only before new development starts & after new development has started.
+	so, Both before and after new development starts.
+
+Question 8:
+When is it critical to groom the backlog? 
+Ans: As stores move up the product backlog, its more important to groom them.
+
+
+
+Chapter - 6 Sprint Review and Retrospect
+=========================================
+Sprint review ===> accept deilverables ===> Retrospect Sprint.
